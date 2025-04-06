@@ -1,3 +1,6 @@
-export function tambah(a, b) {
-    return a + b
-}
+export default {
+    halo: () => 'halo',
+    hai: () => 'hai',
+    selamatWaktu: waktu => `${waktu}`
+  }
+  
